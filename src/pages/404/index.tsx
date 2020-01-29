@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 
 import SEO from '~/components/SEO';
 
-const NotFoundPage: FC = () => (
+const NotFound: FC = () => (
   <>
     <SEO title="404: Not found" />
     <h1>NOT FOUND</h1>
@@ -10,4 +10,4 @@ const NotFoundPage: FC = () => (
   </>
 );
 
-export default NotFoundPage;
+export default NotFound;

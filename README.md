@@ -1,44 +1,58 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+    <!-- <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" /> -->
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  Collab Branch Landing Page
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+<p align="center">
+  <a href="https://github.com/henry-ns/portfolio/graphs/commit-activity" alt="Maintenance">
+    <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="./LICENSE" alt="License: MIT">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
+  </a>
+  <a href="https://www.codefactor.io/repository/github/henry-ns/portfolio" alt="CodeFactor">
+    <img src="https://www.codefactor.io/repository/github/henry-ns/portfolio/badge" />
+  </a>
+  <a href="https://app.netlify.com/sites/henriquemiranda/deploys" alt="Netlify Status">
+    <img src="https://api.netlify.com/api/v1/badges/73b460d0-9e11-4829-bb83-9752d12634b5/deploy-status" />
+  </a>
+</p>
+
+O Collab Branch é um projeto idealizado pelo Ramo Estudantil IEEE do IFPB Campus Campina Grande,em que consiste no desenvolvimento de Sistemas com o propósito de ajudar a comunidade do IFPB-CG de diversas formas possíveis, para que os integrantes se sintam mais ambientados com a estrutura e o funcionamento da instituição.
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
-## 🚀 Quick start
+## 🚀 Run Locally
 
-1.  **Create a Gatsby site.**
-
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+1.  **Clone this repository.**
 
     ```shell
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+    git clone https://github.com/ieeeifpbcg/cb-site.git
     ```
 
-1.  **Start developing.**
+2.  **Install depedencies.**
 
-    Navigate into your new site’s directory and start it up.
+    Navigate into cb-site directory and start it up.
 
     ```shell
-    cd my-default-starter/
-    gatsby develop
+    cd cb-site/
+
+    # if you use yarn
+    yarn
+
+    # or if you use npm
+    npm install
     ```
 
-1.  **Open the source code and start editing!**
+3.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
-
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
 ## 🧐 What's inside?
 
@@ -89,9 +103,3 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
